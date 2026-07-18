@@ -1,14 +1,15 @@
 # 🔢 Calculator
 
-A modern, resizable calculator built with CustomTkinter featuring a clean square-grid interface and support for both basic and advanced mathematical operations.
+A resizable, square-grid calculator built with CustomTkinter — a modern Python GUI toolkit that delivers a native-looking interface across all platforms.
 
 ## ✨ Features
 
-- **Responsive Design** – Resizable window with adaptive square-grid layout
-- **Basic Operations** – Addition, subtraction, multiplication, division, modulo, exponentiation
-- **Advanced Functions** – Square root, absolute value, power, logarithm, plus constants (π, e)
-- **Dual Execution Modes** – Quick arithmetic with "=" and advanced expressions with Execute button
-- **Keyboard Support** – Enter to calculate, Esc to clear
+- **Resizable Window** – Starts compact and adapts seamlessly when maximized
+- **Square Grid Layout** – Buttons remain perfectly balanced and proportional
+- **Basic Arithmetic** – Addition, subtraction, multiplication, division, modulo, exponentiation
+- **Advanced Functions** – Square root, absolute value, power, logarithm, plus mathematical constants (π, e)
+- **Dual Execution Modes** – "=" button for quick arithmetic, Execute button for extended math expressions
+- **Keyboard Shortcuts** – Enter to calculate, Esc to clear
 
 ## 📋 Requirements
 
@@ -33,8 +34,8 @@ python calculator.py
 | Operation | Method | Example |
 |-----------|--------|---------|
 | Simple arithmetic | Press "=" | `2+3*4` → `14` |
-| Advanced math | Press "Execute" | `sqrt(25)` → `5.0` |
-| Constants | Available in Execute mode | `pi`, `e` |
+| Advanced expressions | Press "Execute" | `sqrt(16)` → `4.0` |
+| Mathematical constants | Available in Execute mode | `pi`, `e` |
 
 ### Keyboard Shortcuts
 
@@ -46,13 +47,15 @@ python calculator.py
 **Basic Calculation:**
 ```
 Input: 2+3*4
-Result: 14
+Press: =
+Output: 14
 ```
 
 **Advanced Calculation:**
 ```
 Input: sqrt(25)
-Result: 5.0
+Press: Execute
+Output: 5.0
 ```
 
 ## 📂 Project Structure
