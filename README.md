@@ -1,6 +1,6 @@
 # 🔢 Calculator
 
-A resizable, square-grid calculator built with CustomTkinter — a modern Python GUI toolkit that delivers a native-looking interface across all platforms.
+A calculator built with CustomTkinter — a modern Python GUI toolkit that delivers a native-looking interface across all platforms.
 
 ## ✨ Features
 
