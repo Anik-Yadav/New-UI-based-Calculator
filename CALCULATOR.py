@@ -2,7 +2,7 @@ import customtkinter as ctk
 import math
 
 root = ctk.CTk()
-root.title("Square Grid Calculator")
+root.title("Calculator")
 root.geometry("400x500")
 root.resizable(True, True)
 
